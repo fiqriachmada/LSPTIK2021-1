@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perhitungan Faktorial dan Perpangkatan</title>
+	<link href="../../vendor/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<!--NavBar-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+		<div class="container-fluid">
+			<div class="navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tampilanFaktorial.html">Faktorial</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../perpangkatan/tampilanPerpangkatan.html">Perpangkatan</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--Input Faktorial-->
+	<div class="container col-md-6 mt-4">
+		<h1 align="center">FAKTORIAL</h1>
+		<div class="card" align="center">
+			<div class="card-header bg-success text-white">
+				Input Faktorial
+			</div>
+			<div class="card-body">
+				<form action="simpanCSV.php" method="post" role="form">
+					<div class="form-group">
+						<label>Masukkan Angka</label>
+						<input type="text" name="angka" id="angka" class="form-control">
+					</div><br>
+					<button type="submit" class="btn btn-primary" name="submit" value="simpan">Hitung</button>
+					<a href="tampilanHistory.php" class="btn btn-primary">History</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
